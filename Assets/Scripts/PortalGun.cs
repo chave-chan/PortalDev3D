@@ -42,6 +42,7 @@ public class PortalGun : MonoBehaviour
             bluePortal.transform.position = previewPortal.transform.position;
             bluePortal.transform.forward = previewPortal.transform.forward;
             changeGunsight(bluePortal.activeInHierarchy, orangePortal.activeInHierarchy);
+            isActive = false;
         }
         if (Input.GetMouseButtonUp(1) && isActive)
         {
@@ -49,6 +50,7 @@ public class PortalGun : MonoBehaviour
             orangePortal.transform.position = previewPortal.transform.position;
             orangePortal.transform.forward = previewPortal.transform.forward;
             changeGunsight(bluePortal.activeInHierarchy, orangePortal.activeInHierarchy);
+            isActive = false;
         }
     }
     /*

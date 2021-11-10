@@ -73,7 +73,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 10}
+  - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42911288cc327544802e4c44e8a94e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAngle: 5
+  maxAngle: 15
   activate:
     m_PersistentCalls:
       m_Calls:
@@ -254,6 +254,7 @@ MonoBehaviour:
   laserLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  isActive: 1
 --- !u!1001 &2885457659239584404
 PrefabInstance:
   m_ObjectHideFlags: 0

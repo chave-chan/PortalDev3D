@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TurretAngleDetector.cs" />
     <Compile Include="Assets\Scripts\PlayerButtonPresser.cs" />
     <Compile Include="Assets\Scripts\ButtonEvent.cs" />
     <Compile Include="Assets\Scripts\Teleportable.cs" />
@@ -63,10 +64,14 @@
     <Compile Include="Assets\Scripts\FPSController.cs" />
     <Compile Include="Assets\Scripts\CompanionSpawner.cs" />
     <Compile Include="Assets\Scripts\GravityGun.cs" />
+    <Compile Include="Assets\Scripts\TurretLaser.cs" />
     <Compile Include="Assets\Scripts\PortalCamera.cs" />
     <Compile Include="Assets\Scripts\PortalGun.cs" />
-    <Compile Include="Assets\Scripts\TurretAngleDetector.cs" />
-    <Compile Include="Assets\Scripts\TurretLaser.cs" />
+    <Compile Include="Assets\Scripts\CompanionButtonPresser.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Materials\PortalShader.shader" />

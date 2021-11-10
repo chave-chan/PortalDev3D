@@ -172,6 +172,7 @@ MonoBehaviour:
   laserLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  isActive: 0
 --- !u!1 &7354096996692518796
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +852,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 10}
+  - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
@@ -900,7 +901,7 @@ LineRenderer:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     numCornerVertices: 0
-    numCapVertices: 0
+    numCapVertices: 4
     alignment: 0
     textureMode: 0
     shadowBias: 0.5

@@ -7,7 +7,7 @@ public class TurretLaser : MonoBehaviour
     [SerializeField] private LineRenderer laserRenderer;
     [SerializeField] private float maxLaserDist;
     [SerializeField] private LayerMask laserLayerMask;
-    private bool isActive = true;
+    [SerializeField] private bool isActive;
 
     public void updateState(bool isActive)
     {
@@ -28,11 +28,11 @@ public class TurretLaser : MonoBehaviour
                 {
                     laser.updateState(true);
                 }
-                /*
-                if (hitInfo.transform.gameObject.TryGetComponent(out HealthSystem hs))
+                //Kill player
+                if (hitInfo.transform.gameObject.TryGetComponent(out Player player))
                 {
-                    hs.kill();
-                }*/
+                    player.die();
+                }
             }
             else
             {
