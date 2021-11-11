@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
     public void setGameOver()
     {
         if (image != null)
-            image.enabled = true;
+            image.enabled= true;
     }
 
     public void setGameRestarted()

@@ -35,7 +35,7 @@ public class FPSController : MonoBehaviour
     //Cursor
     public KeyCode DebugLockAngleKeyCode = KeyCode.I;
     public KeyCode DebugLockKeyCode = KeyCode.O;
-    private bool AngleLocked = false;
+    private bool AngleLocked = true;
     private bool AimLocked = false;
 
     void Awake()
@@ -43,6 +43,13 @@ public class FPSController : MonoBehaviour
         recalculateYawPitch();
         gravity = -2 * maxHeight / (timeToMaxHeight * timeToMaxHeight);
         jumpSpeed = 2 * maxHeight / timeToMaxHeight;
+        StartCoroutine(coroutineWaitMouse(0.5f));
+    }
+
+    public void Restart()
+    {
+        currPitch = 0;
+        currYaw = 0;
     }
 
     public void recalculateYawPitch()
@@ -194,4 +201,9 @@ public class FPSController : MonoBehaviour
         Cursor.visible = true;
     }
 
+    IEnumerator coroutineWaitMouse(float time)
+    {
+        yield return new WaitForSeconds(time);
+        AngleLocked = false;
+    }
 }

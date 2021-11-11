@@ -4,33 +4,24 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private KeyCode restartKey;
     [SerializeField] private GameObject player;
-    [SerializeField] private Transform initTransform;
     [SerializeField] private GameOver image;
 
     public void GameOver()
     {
-        Restart();
+        image.setGameOver();
+        player.GetComponent<PortalGun>().enabled = false;
+        player.GetComponent<FPSController>().enabled = false;
+        player.GetComponent<CharacterController>().enabled = false;
     }
 
     public void Restart()
     {
-        if (Input.GetKeyDown(restartKey))
-        {
-            image.setGameRestarted();
-            player.SetActive(true);
-            player.GetComponent<Player>().restart();
-            player.transform.position = initTransform.position;
-            player.transform.rotation = initTransform.rotation;
-            player.GetComponent<CharacterController>().enabled = true;
-        }
-    }
-
-    public void GameOverScreen()
-    {
-        image.setGameOver();
-        player.GetComponent<CharacterController>().enabled = false;
-        player.GetComponent<PortalGun>().enabled = false;
+        Debug.Log("RESTART");
+        image.setGameRestarted();
+        player.GetComponent<PortalGun>().enabled = true;
+        player.GetComponent<FPSController>().enabled = true;
+        player.GetComponent<FPSController>().Restart();
+        player.GetComponent<CharacterController>().enabled = true;
     }
 }
