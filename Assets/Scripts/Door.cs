@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private Animation _Animation;
+    [SerializeField] private Animation animation;
     private bool isOpen = false;
     //Open the door
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<Player>() && !isOpen)
         {
-            _Animation.CrossFade("Door_Open", 0.005f);
+            animation.CrossFade("Door_Open", 0.005f);
             isOpen = true;
         }
     }
@@ -21,7 +21,7 @@ public class Door : MonoBehaviour
         StartCoroutine(coroutineWaitDoor(5.0f));
         if (other.gameObject.GetComponent<Player>() && isOpen)
         {
-            _Animation.CrossFade("Door_Close", 0.005f);
+            animation.CrossFade("Door_Close", 0.005f);
             isOpen = false;
         }
     }

@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9164904840336492212}
   - component: {fileID: 7646940333707601873}
-  - component: {fileID: 7500905797701714128}
+  - component: {fileID: 774171403387657255}
   m_Layer: 3
   m_Name: Door_Button
   m_TagString: Untagged
@@ -146,7 +146,7 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &7500905797701714128
+--- !u!114 &774171403387657255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,10 +155,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2102498050888740986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a078cae196ad54e48afe671059fd6962, type: 3}
+  m_Script: {fileID: 11500000, guid: 789cb0a99f9a9c54ead5a282cac18b27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Animation: {fileID: 7646940333707601873}
+  animation: {fileID: 7646940333707601873}
+  light1Off: {fileID: 0}
+  light2Off: {fileID: 0}
+  light1On: {fileID: 0}
+  light2On: {fileID: 0}
 --- !u!1 &8228081692098360708
 GameObject:
   m_ObjectHideFlags: 0

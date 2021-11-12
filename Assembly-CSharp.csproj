@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\TurretAngleDetector.cs" />
     <Compile Include="Assets\Scripts\PlayerButtonPresser.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\ButtonEvent.cs" />
     <Compile Include="Assets\Scripts\Teleportable.cs" />
     <Compile Include="Assets\Scripts\PreviewPortal.cs" />
@@ -65,13 +66,13 @@
     <Compile Include="Assets\Scripts\CompanionSpawner.cs" />
     <Compile Include="Assets\Scripts\GravityGun.cs" />
     <Compile Include="Assets\Scripts\TurretLaser.cs" />
-    <Compile Include="Assets\Scripts\PortalCamera.cs" />
-    <Compile Include="Assets\Scripts\PortalGun.cs" />
-    <Compile Include="Assets\Scripts\CompanionButtonPresser.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\CompanionButtonPresser.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PortalCamera.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\PortalGun.cs" />
+    <Compile Include="Assets\Scripts\Door_Button.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Materials\PortalShader.shader" />

@@ -5,6 +5,7 @@ using ButtonEvent_1 = ButtonEvent;
 
 public class PlayerButtonPresser : MonoBehaviour
 {
+    [SerializeField] private Door_Button door;
     [SerializeField] private KeyCode buttonKey;
     private List<ButtonEvent> activeButtons = new List<ButtonEvent>();
 
@@ -21,6 +22,18 @@ public class PlayerButtonPresser : MonoBehaviour
         if (other.gameObject.TryGetComponent(out ButtonEvent button))
         {
             activeButtons.Remove(button);
+            door.turnLight1Off();
+            door.turnLight2Off();
+            if (door.light1)
+            {
+                door.turnLight2Off();
+                door.turnLight1On();
+            }
+            if (door.light2)
+            {
+                door.turnLight1Off();
+                door.turnLight2On();
+            }
         }
     }
 
