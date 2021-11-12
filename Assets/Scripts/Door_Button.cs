@@ -8,6 +8,13 @@ public class Door_Button : MonoBehaviour
     [SerializeField] private MeshRenderer light1Off, light2Off, light1On, light2On;
     public bool light1 = false, light2 = false;
     private bool isOpen = false;
+
+    private void Start()
+    {
+        turnLight1Off();
+        turnLight2Off();
+    }
+
     private void Update()
     {
         openDoor();

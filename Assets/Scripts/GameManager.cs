@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
-        Debug.Log("RESTART");
         image.setGameRestarted();
         player.GetComponent<PortalGun>().enabled = true;
         player.GetComponent<FPSController>().enabled = true;

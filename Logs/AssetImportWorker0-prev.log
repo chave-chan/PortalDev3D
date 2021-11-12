@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 8071 MB
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 8071 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ F:/Uni Stuff/TecnoCampus/4t/1r Trimestre/Desenvolupament de Jocs 3D/Pràctiques/
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56084
+55394
 Successfully changed project path to: F:/Uni Stuff/TecnoCampus/4t/1r Trimestre/Desenvolupament de Jocs 3D/Pràctiques/PortalDev3D
 F:/Uni Stuff/TecnoCampus/4t/1r Trimestre/Desenvolupament de Jocs 3D/Pràctiques/PortalDev3D
 Using Asset Import Pipeline V2.
@@ -23,7 +23,7 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 60.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7.f1/Editor/Data/Resources/UnitySubsystems
@@ -39,35 +39,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7.f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7.f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7.f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7.f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002429 seconds.
+Registered in 0.002767 seconds.
 Native extension for WindowsStandalone target not found
 Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 50.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.838 seconds
+- Completed reload, in  1.198 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002196 seconds.
+Registered in 0.000930 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.320 seconds
+- Completed reload, in  1.022 seconds
 Platform modules already initialized, skipping
 Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -79,401 +79,254 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 70.0 MB.
-System memory in use after: 70.1 MB.
+System memory in use after: 70.0 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1590.
-Total: 3.085700 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.050300 ms MarkObjects: 2.743400 ms  DeleteObjects: 0.113300 ms)
+Total: 2.693600 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.235800 ms  DeleteObjects: 0.175600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecbbd8f5a5a025978321d5c8eb4c84d') in 0.252099 seconds
-  Import took 0.255612 seconds .
+  path: Assets/PortalAssets/Modelos/Exit_Sign
+  artifactKey: Guid(a363506f79fd38e428065973bf0b86a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign using Guid(a363506f79fd38e428065973bf0b86a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86f9454a1424f6fa40079653e33558c') in 0.011015 seconds
+  Import took 0.035706 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Prefabs/Door.prefab
-  artifactKey: Guid(62f79408fab106445a7be06727bef784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door.prefab using Guid(62f79408fab106445a7be06727bef784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4f473dd9b34b30c0fe12aa1b9abadf') in 0.021134 seconds
-  Import took 0.027583 seconds .
+  Time since last request: 0.000341 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source
+  artifactKey: Guid(7169ca5e5033b214fa6d00fd63f2f72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source using Guid(7169ca5e5033b214fa6d00fd63f2f72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0bb3a63bf509f8fe018399f4a49b83') in 0.009794 seconds
+  Import took 0.052950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.300718 seconds.
-  path: Assets/Scripts/Door.cs
-  artifactKey: Guid(a078cae196ad54e48afe671059fd6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Door.cs using Guid(a078cae196ad54e48afe671059fd6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d7790fa09eb3a20627ab7fd6315ca6') in 0.007701 seconds
-  Import took 0.010443 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/ExitSign.fbx
+  artifactKey: Guid(6ff46b0e30d544643807ec3a1243279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/ExitSign.fbx using Guid(6ff46b0e30d544643807ec3a1243279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3fcfe443c861dbcc88e4e64abd4111') in 0.273502 seconds
+  Import took 0.284084 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Scripts/Door.cs
-  artifactKey: Guid(a078cae196ad54e48afe671059fd6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Door.cs using Guid(a078cae196ad54e48afe671059fd6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d7790fa09eb3a20627ab7fd6315ca6') in 0.004244 seconds
-  Import took 0.007671 seconds .
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.6 MB.
-System memory in use after: 50.6 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1599.
-Total: 3.695900 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.080200 ms MarkObjects: 3.235300 ms  DeleteObjects: 0.109300 ms)
+  Time since last request: 0.006174 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/ExitSign.fbx
+  artifactKey: Guid(6ff46b0e30d544643807ec3a1243279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/ExitSign.fbx using Guid(6ff46b0e30d544643807ec3a1243279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3fcfe443c861dbcc88e4e64abd4111') in 0.070188 seconds
+  Import took 0.072840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 134.846294 seconds.
-  path: Assets/Prefabs/Refraction Cube.prefab
-  artifactKey: Guid(7f492690b0598ef428a5548333f6ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Refraction Cube.prefab using Guid(7f492690b0598ef428a5548333f6ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60db5a12e2062f9ed8b2283871961aaf') in 0.091939 seconds
-  Import took 0.095897 seconds .
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001846 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 3.928400 ms (FindLiveObjects: 0.208700 ms CreateObjectMapping: 0.064800 ms MarkObjects: 3.480900 ms  DeleteObjects: 0.172500 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000697 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
-Total: 2.474900 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.019200 ms  DeleteObjects: 0.178100 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000839 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.209 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
-Total: 2.991300 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.041100 ms MarkObjects: 2.524400 ms  DeleteObjects: 0.157300 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
-Total: 3.709700 ms (FindLiveObjects: 0.219600 ms CreateObjectMapping: 0.050800 ms MarkObjects: 3.303800 ms  DeleteObjects: 0.132800 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000918 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
-Total: 2.089000 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.064900 ms MarkObjects: 1.693700 ms  DeleteObjects: 0.123700 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000846 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
-Total: 2.506800 ms (FindLiveObjects: 0.371200 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.901600 ms  DeleteObjects: 0.189100 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000764 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1620.
-Total: 2.385900 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.963100 ms  DeleteObjects: 0.080700 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000920 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1623.
-Total: 4.404900 ms (FindLiveObjects: 0.570900 ms CreateObjectMapping: 0.091600 ms MarkObjects: 3.581700 ms  DeleteObjects: 0.155900 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.236 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1626.
-Total: 2.629500 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.103700 ms MarkObjects: 2.169200 ms  DeleteObjects: 0.124500 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000701 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.393 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1629.
-Total: 3.410900 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.055800 ms MarkObjects: 3.007800 ms  DeleteObjects: 0.120900 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001059 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1632.
-Total: 2.579600 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.112700 ms MarkObjects: 2.078900 ms  DeleteObjects: 0.083000 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1635.
-Total: 3.468700 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.081100 ms MarkObjects: 2.979400 ms  DeleteObjects: 0.182800 ms)
+  Time since last request: 3.255131 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures
+  artifactKey: Guid(3a8545e9c3ca83147bced747e88c38db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures using Guid(3a8545e9c3ca83147bced747e88c38db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a18cea934cda952a5b43a103efdd03f') in 0.009279 seconds
+  Import took 0.085067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3177.609233 seconds.
-  path: Assets/Animations/Door_Open.anim
-  artifactKey: Guid(45386745ffa942f43ae8f6dc8da1e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Door_Open.anim using Guid(45386745ffa942f43ae8f6dc8da1e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d893b380438065c774f46bf0d23a613') in 0.037614 seconds
-  Import took 0.040870 seconds .
+  Time since last request: 0.000413 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/New_Graph_roughness.png
+  artifactKey: Guid(5b83d3ddfb3c3fe4cb349a18ebd94552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/New_Graph_roughness.png using Guid(5b83d3ddfb3c3fe4cb349a18ebd94552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7328c92f52c55d75d0f2b36121078e') in 0.062413 seconds
+  Import took 0.066109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000870 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/Metal-Spec.jpeg
+  artifactKey: Guid(41deb56d303ec5f4dbfcdbe95a9a7eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/Metal-Spec.jpeg using Guid(41deb56d303ec5f4dbfcdbe95a9a7eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d8e65607946eff92517e8bba83ddf0') in 0.028922 seconds
+  Import took 0.041812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/Dirty_Specular_Substance.png
+  artifactKey: Guid(32909582616849e448d4d3c421830ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/Dirty_Specular_Substance.png using Guid(32909582616849e448d4d3c421830ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74862cb1fcd75a6eee767c47d145f4f') in 0.031486 seconds
+  Import took 0.045039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/GreenSign.png
+  artifactKey: Guid(4f72463af6f68e84694b8b8311e80258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/GreenSign.png using Guid(4f72463af6f68e84694b8b8311e80258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c052e88023a23b214a103e97bd195aa') in 0.032158 seconds
+  Import took 0.034583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003446 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/GreenSign.png
+  artifactKey: Guid(4f72463af6f68e84694b8b8311e80258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/GreenSign.png using Guid(4f72463af6f68e84694b8b8311e80258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c052e88023a23b214a103e97bd195aa') in 0.014171 seconds
+  Import took 0.017853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.044197 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/Exit_Sign.mat
+  artifactKey: Guid(04c8018f9d31ee64aa6ace1ae43f63fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/Exit_Sign.mat using Guid(04c8018f9d31ee64aa6ace1ae43f63fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799ba7116817515fde5304eaf5beef63') in 0.343916 seconds
+  Import took 0.356615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.710052 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_LP.fbx
+  artifactKey: Guid(b950f157ab5333440ac0c3026e167c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_LP.fbx using Guid(b950f157ab5333440ac0c3026e167c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c281d9db7f2fa495822f6e6a348b1c') in 0.041428 seconds
+  Import took 0.045316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.084365 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.fbx
+  artifactKey: Guid(b950f157ab5333440ac0c3026e167c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.fbx using Guid(b950f157ab5333440ac0c3026e167c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934708cc502d2a00f7a14ad74adf662a') in 0.028011 seconds
+  Import took 0.047947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001110 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.fbx
+  artifactKey: Guid(b950f157ab5333440ac0c3026e167c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.fbx using Guid(b950f157ab5333440ac0c3026e167c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934708cc502d2a00f7a14ad74adf662a') in 0.040910 seconds
+  Import took 0.044052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.048269 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_albedo.jpg
+  artifactKey: Guid(00b3f866c2493f74a9df7b12bced6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_albedo.jpg using Guid(00b3f866c2493f74a9df7b12bced6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5675fef88faf7814200317f670f8f93f') in 0.022001 seconds
+  Import took 0.126902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_roughness.jpg
+  artifactKey: Guid(c91d0d7ae7ed6f54a82a7200de3ed3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_roughness.jpg using Guid(c91d0d7ae7ed6f54a82a7200de3ed3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97f71dcc6c86465ea5edfdca34a8002') in 0.035090 seconds
+  Import took 0.054368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_AO.jpg
+  artifactKey: Guid(4bb99dccf8b9a8d49866f68d1d3d2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_AO.jpg using Guid(4bb99dccf8b9a8d49866f68d1d3d2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc176b1639e959f060829523a1733df') in 0.028382 seconds
+  Import took 0.045970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_metallic.jpg
+  artifactKey: Guid(463565b7d307e2a498461a9e6b4912d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_metallic.jpg using Guid(463565b7d307e2a498461a9e6b4912d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d698a117b7103443025a30b151b53c7') in 0.028152 seconds
+  Import took 0.042698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_normal.png
+  artifactKey: Guid(de769886ade14944ea69ba3c9abdd13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_normal.png using Guid(de769886ade14944ea69ba3c9abdd13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc9c5e0743ea5d4a915202709aa5847') in 0.024573 seconds
+  Import took 0.055001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.951081 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_normal.png
+  artifactKey: Guid(de769886ade14944ea69ba3c9abdd13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/lambert1_normal.png using Guid(de769886ade14944ea69ba3c9abdd13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c08cb60b8b2c804464b7b70be503cb') in 0.049556 seconds
+  Import took 0.067544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.344149 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.prefab
+  artifactKey: Guid(34045fe93bc4988479c75856c5be50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.prefab using Guid(34045fe93bc4988479c75856c5be50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a37cf51cb7d938477893cc03889368d') in 0.029373 seconds
+  Import took 0.043134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004193 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.prefab
+  artifactKey: Guid(34045fe93bc4988479c75856c5be50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/source/Exit_Sign.prefab using Guid(34045fe93bc4988479c75856c5be50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a37cf51cb7d938477893cc03889368d') in 0.026534 seconds
+  Import took 0.031297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.419817 seconds.
+  path: Assets/PortalAssets/Modelos/Exit_Sign/textures/New Flare.flare
+  artifactKey: Guid(734740fc4a8a20941a4666d97cafb5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Exit_Sign/textures/New Flare.flare using Guid(734740fc4a8a20941a4666d97cafb5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0fbbabd70e790d4e7c3d25acd519a3') in 0.012228 seconds
+  Import took 0.017885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.875402 seconds.
+  path: Assets/PortalAssets/Modelos/Portal_Camera
+  artifactKey: Guid(99636988301f9a243a9c34106e20483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Portal_Camera using Guid(99636988301f9a243a9c34106e20483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d74df8e2220ad608155ba0c3408acc') in 0.010887 seconds
+  Import took 0.015644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/PortalAssets/Modelos/Portal_Camera
+  artifactKey: Guid(99636988301f9a243a9c34106e20483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Portal_Camera using Guid(99636988301f9a243a9c34106e20483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d74df8e2220ad608155ba0c3408acc') in 0.006759 seconds
+  Import took 0.009918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.096791 seconds.
+  path: Assets/PortalAssets/Modelos/Portal_Camera/source
+  artifactKey: Guid(c94b0352734afbf49844d344db7b2cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Portal_Camera/source using Guid(c94b0352734afbf49844d344db7b2cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3771e7bc100021d2af9da6250c90fa0e') in 0.005143 seconds
+  Import took 0.009149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065900 seconds.
+  path: Assets/PortalAssets/Modelos/Portal_Camera/source/Portal2_Camera_2_2_Test.fbx
+  artifactKey: Guid(3d72578f4d5d1ad4a9ac653ff05637e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Portal_Camera/source/Portal2_Camera_2_2_Test.fbx using Guid(3d72578f4d5d1ad4a9ac653ff05637e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d6228f44c594bb59d1e2b189a2eebd') in 0.097080 seconds
+  Import took 0.100017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 655.956128 seconds.
+  path: Assets/Scripts/Door_Button.cs
+  artifactKey: Guid(789cb0a99f9a9c54ead5a282cac18b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Door_Button.cs using Guid(789cb0a99f9a9c54ead5a282cac18b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fcdc2af39250789e6ce6512cf46aa4') in 0.027057 seconds
+  Import took 0.031549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Scripts/Door_Button.cs
+  artifactKey: Guid(789cb0a99f9a9c54ead5a282cac18b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Door_Button.cs using Guid(789cb0a99f9a9c54ead5a282cac18b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fcdc2af39250789e6ce6512cf46aa4') in 0.004811 seconds
+  Import took 0.010235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.042932 seconds.
+  path: Assets/Scripts/Door_Button.cs
+  artifactKey: Guid(789cb0a99f9a9c54ead5a282cac18b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Door_Button.cs using Guid(789cb0a99f9a9c54ead5a282cac18b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f0ede58b430fd29976ac221c7e10d5') in 0.004702 seconds
+  Import took 0.007981 seconds .
 
 ========================================================================
 Received Prepare
@@ -482,115 +335,7 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.000741 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1638.
-Total: 3.206300 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.119700 ms MarkObjects: 2.679200 ms  DeleteObjects: 0.128700 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1641.
-Total: 2.069500 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.068900 ms MarkObjects: 1.720800 ms  DeleteObjects: 0.088900 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000706 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.853 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1644.
-Total: 1.970600 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.638600 ms  DeleteObjects: 0.088800 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000897 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1647.
-Total: 3.575000 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.870500 ms  DeleteObjects: 0.093900 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001097 seconds.
+Registered in 0.000728 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
@@ -599,16 +344,381 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1641.
+Total: 1.876400 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.542000 ms  DeleteObjects: 0.124100 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1644.
+Total: 3.487300 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.082200 ms MarkObjects: 3.063500 ms  DeleteObjects: 0.109500 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 2.121600 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.699600 ms  DeleteObjects: 0.082200 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.6 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1650.
-Total: 2.040600 ms (FindLiveObjects: 0.330200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.513100 ms  DeleteObjects: 0.121400 ms)
+Total: 3.215300 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.046900 ms MarkObjects: 2.838600 ms  DeleteObjects: 0.112700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 755.190492 seconds.
+  path: Assets/Scripts/PlayerButtonPresserNoKey.cs
+  artifactKey: Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresserNoKey.cs using Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aae8288fdea6cb8786e8b460ed9d96') in 0.020429 seconds
+  Import took 0.023695 seconds .
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 2.172600 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.723400 ms  DeleteObjects: 0.112500 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 3.053200 ms (FindLiveObjects: 0.224400 ms CreateObjectMapping: 0.045700 ms MarkObjects: 2.696400 ms  DeleteObjects: 0.085200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.243815 seconds.
+  path: Assets/Scripts/PlayerButtonPresserNoKey.cs
+  artifactKey: Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresserNoKey.cs using Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeef1576f0020e50f6796ea390c3cbf') in 0.005962 seconds
+  Import took 0.008280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.622328 seconds.
+  path: Assets/Prefabs/Door.prefab
+  artifactKey: Guid(62f79408fab106445a7be06727bef784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.prefab using Guid(62f79408fab106445a7be06727bef784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec0a07349328851c7a7a68efbab1e85') in 0.520036 seconds
+  Import took 0.523473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Prefabs/Door_Button.prefab
+  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12f9ba5748ec348c77edbdcf38c579c') in 0.021466 seconds
+  Import took 0.027263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.417680 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0bab178c0051129de53ac979c08210') in 0.064067 seconds
+  Import took 0.067955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.341906 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eadc98adc2d2d3cf5a68b06e2abb5cb') in 0.354573 seconds
+  Import took 0.358637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.267633 seconds.
+  path: Assets/PortalAssets/Modelos/Light
+  artifactKey: Guid(a0a4c4f9ab0cc44479aca54803ca971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light using Guid(a0a4c4f9ab0cc44479aca54803ca971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bcc7a16b01de35047d69d1a3128dee') in 0.010855 seconds
+  Import took 0.013488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/PortalAssets/Modelos/Light
+  artifactKey: Guid(a0a4c4f9ab0cc44479aca54803ca971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light using Guid(a0a4c4f9ab0cc44479aca54803ca971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bcc7a16b01de35047d69d1a3128dee') in 0.101378 seconds
+  Import took 0.103859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.410966 seconds.
+  path: Assets/PortalAssets/Modelos/Light/source
+  artifactKey: Guid(571ce521bc6fea24487a0a336a6dbcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/source using Guid(571ce521bc6fea24487a0a336a6dbcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab4d827c365d13bd98caacbc22127fa') in 0.005567 seconds
+  Import took 0.009531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857553 seconds.
+  path: Assets/PortalAssets/Modelos/Light/source/LightFixtureRecessed.fbx
+  artifactKey: Guid(3852bc2f18ef3d448bb5bfced4ef5300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/source/LightFixtureRecessed.fbx using Guid(3852bc2f18ef3d448bb5bfced4ef5300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c87644ca212a2846f01274f4c896d2a') in 0.039941 seconds
+  Import took 0.043317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.269732 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures
+  artifactKey: Guid(021c430ee1de7d14081425fd852a06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures using Guid(021c430ee1de7d14081425fd852a06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d272d5c115a8bcf83cf2c9bc60233e7') in 0.392596 seconds
+  Import took 0.396020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Normal.png
+  artifactKey: Guid(6ee90a86fc2530e499afbabc98ef1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Normal.png using Guid(6ee90a86fc2530e499afbabc98ef1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c15e3bd6c153a03976ec6948d925e5') in 0.094236 seconds
+  Import took 0.097459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_BaseColor.jpg
+  artifactKey: Guid(eb46fe52de1c14a4bb5bc70811db1e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_BaseColor.jpg using Guid(eb46fe52de1c14a4bb5bc70811db1e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0581041450eccaa765dcbb9a280eab37') in 0.027917 seconds
+  Import took 0.031405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Metallic.jpg
+  artifactKey: Guid(e84dd1efed446d8469d0de7451b70a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Metallic.jpg using Guid(e84dd1efed446d8469d0de7451b70a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab24460f279c6aa3e4aa82780adf44e') in 0.050286 seconds
+  Import took 0.056535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Emissive.jpg
+  artifactKey: Guid(9d6d0e93a0a0bd74098c809340058512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Emissive.jpg using Guid(9d6d0e93a0a0bd74098c809340058512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c08cced8b0537d5311f8d896ff5d00') in 0.027455 seconds
+  Import took 0.032890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Roughness.jpg
+  artifactKey: Guid(e4a6e0a6579596244bf25d00f5e2903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Roughness.jpg using Guid(e4a6e0a6579596244bf25d00f5e2903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94d3558276ca33b65d3429b39a316fa') in 0.019069 seconds
+  Import took 0.021641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077823 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Normal.png
+  artifactKey: Guid(6ee90a86fc2530e499afbabc98ef1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Normal.png using Guid(6ee90a86fc2530e499afbabc98ef1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d290262c4893e4981133d99be6606b') in 0.017234 seconds
+  Import took 0.021042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Normal.png
+  artifactKey: Guid(6ee90a86fc2530e499afbabc98ef1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_Normal.png using Guid(6ee90a86fc2530e499afbabc98ef1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d290262c4893e4981133d99be6606b') in 0.014658 seconds
+  Import took 0.017658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.128883 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/Light.mat
+  artifactKey: Guid(a87f3c4931cc92e4f82ec7499cda6127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/Light.mat using Guid(a87f3c4931cc92e4f82ec7499cda6127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bd151dd68f79bf8069a0fab2981cf8') in 0.027907 seconds
+  Import took 0.030498 seconds .
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 3.134600 ms (FindLiveObjects: 0.303600 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.604400 ms  DeleteObjects: 0.139100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.782193 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_BaseColor_Blue.jpg
+  artifactKey: Guid(e82040d7b5379a3418cebc03b75c8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_BaseColor_Blue.jpg using Guid(e82040d7b5379a3418cebc03b75c8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc5fb05dbfc69b62db709bf0f4dd7b') in 0.067797 seconds
+  Import took 0.070516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_BaseColor_Orange.jpg
+  artifactKey: Guid(23fe3a227f78a71449bec33ccb032dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/DefaultMaterial_BaseColor_Orange.jpg using Guid(23fe3a227f78a71449bec33ccb032dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3e811609fe7b6479f7245027c9fc6d') in 0.023906 seconds
+  Import took 0.026250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.174694 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/Light_Orange.mat
+  artifactKey: Guid(fac927b0d57366c46a440255f785144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/Light_Orange.mat using Guid(fac927b0d57366c46a440255f785144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fa1aa40c332c2d3fe8afa0f5692e4b') in 0.068448 seconds
+  Import took 0.071649 seconds .
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 3.325300 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.042000 ms MarkObjects: 2.994300 ms  DeleteObjects: 0.094000 ms)
 
 ========================================================================
 Received Prepare
@@ -620,22 +730,38 @@ Registering precompiled user dll's ...
 Registered in 0.000704 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
+- Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
-Total: 2.232100 ms (FindLiveObjects: 0.190400 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.843600 ms  DeleteObjects: 0.132600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.510800 ms (FindLiveObjects: 0.358400 ms CreateObjectMapping: 0.231800 ms MarkObjects: 1.780400 ms  DeleteObjects: 0.138200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 573.722260 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/Light_Blue.mat
+  artifactKey: Guid(a87f3c4931cc92e4f82ec7499cda6127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/Light_Blue.mat using Guid(a87f3c4931cc92e4f82ec7499cda6127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c77bcfad682628ae89f850f594d4891') in 0.142699 seconds
+  Import took 0.145785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/PortalAssets/Modelos/Light/textures/Light_Orange.mat
+  artifactKey: Guid(fac927b0d57366c46a440255f785144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Light/textures/Light_Orange.mat using Guid(fac927b0d57366c46a440255f785144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18713a2750f12f84ca7ad5d839509404') in 0.026343 seconds
+  Import took 0.029445 seconds .
 
 ========================================================================
 Received Prepare
@@ -644,7 +770,603 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.000885 seconds.
+Registered in 0.001385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 1.772700 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.417900 ms  DeleteObjects: 0.087000 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 3.756000 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.116400 ms MarkObjects: 3.199100 ms  DeleteObjects: 0.154400 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 1.853700 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.472100 ms  DeleteObjects: 0.123300 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 2.304000 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.989500 ms  DeleteObjects: 0.098300 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 2.466700 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.965300 ms  DeleteObjects: 0.132700 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 3.607500 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.953300 ms  DeleteObjects: 0.175400 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 3.346700 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.177000 ms MarkObjects: 2.630800 ms  DeleteObjects: 0.103200 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 2.585300 ms (FindLiveObjects: 0.477800 ms CreateObjectMapping: 0.069300 ms MarkObjects: 1.898800 ms  DeleteObjects: 0.137200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1073.546754 seconds.
+  path: Assets/Scripts/PlayerButtonPresserNoKey.cs
+  artifactKey: Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresserNoKey.cs using Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b6867f40665ee045833280e0797c5e') in 0.009191 seconds
+  Import took 0.011955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.782535 seconds.
+  path: Assets/Prefabs/CompanionCube.prefab
+  artifactKey: Guid(6d4c04717c50dd148bc7399c40d204e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CompanionCube.prefab using Guid(6d4c04717c50dd148bc7399c40d204e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f243475a700a6a7af4df1e840fef12c') in 0.310102 seconds
+  Import took 0.314206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1e3ab83eb7a39351a1474abf1e02ef') in 0.032519 seconds
+  Import took 0.038432 seconds .
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 1.871300 ms (FindLiveObjects: 0.164600 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.585300 ms  DeleteObjects: 0.077400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.776287 seconds.
+  path: Assets/Prefabs/Door_Button.prefab
+  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5907259e2dd3a3de5fa2363f63766395') in 0.067167 seconds
+  Import took 0.069838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.341001 seconds.
+  path: Assets/Prefabs/Door_Button.prefab
+  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f850615800f55aa29e3b7d7a1a3bf1') in 0.017180 seconds
+  Import took 0.021440 seconds .
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000860 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 3.155000 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.645100 ms  DeleteObjects: 0.119400 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 3.356900 ms (FindLiveObjects: 0.417200 ms CreateObjectMapping: 0.156100 ms MarkObjects: 2.659100 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 3.538800 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.926000 ms  DeleteObjects: 0.142600 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 2.394600 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.017300 ms  DeleteObjects: 0.100400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 615.658311 seconds.
+  path: Assets/Prefabs/Door_Button.prefab
+  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acfb09ef1c402f0b851d08329e636e8') in 0.068614 seconds
+  Import took 0.071580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.733546 seconds.
+  path: Assets/Prefabs/Door_Button.prefab
+  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acfb09ef1c402f0b851d08329e636e8') in 0.013462 seconds
+  Import took 0.016481 seconds .
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.001053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 4.075400 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.049600 ms MarkObjects: 3.382500 ms  DeleteObjects: 0.217800 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 2.257300 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.912800 ms  DeleteObjects: 0.128100 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1723.
+Total: 2.419300 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.927500 ms  DeleteObjects: 0.097300 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1726.
+Total: 2.020800 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.681400 ms  DeleteObjects: 0.089200 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 2.762900 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.218000 ms  DeleteObjects: 0.124300 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 2.752500 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.305300 ms  DeleteObjects: 0.111700 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 2.597100 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.043600 ms MarkObjects: 2.071900 ms  DeleteObjects: 0.095300 ms)
+
+========================================================================
+Received Prepare
+Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.000949 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
@@ -653,437 +1375,16 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
-Total: 3.146800 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.107400 ms MarkObjects: 2.598500 ms  DeleteObjects: 0.105500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 739.082042 seconds.
-  path: Assets/Scripts/Teleportable.cs
-  artifactKey: Guid(fe9abe9b7e4ce7440adbd8eadd63e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Teleportable.cs using Guid(fe9abe9b7e4ce7440adbd8eadd63e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d943de26175a4ab7a5eb2aba922ae0d') in 0.011609 seconds
-  Import took 0.014130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034849 seconds.
-  path: Assets/Scripts/Teleportable.cs
-  artifactKey: Guid(fe9abe9b7e4ce7440adbd8eadd63e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Teleportable.cs using Guid(fe9abe9b7e4ce7440adbd8eadd63e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d943de26175a4ab7a5eb2aba922ae0d') in 0.004398 seconds
-  Import took 0.008221 seconds .
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000754 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
-Total: 2.507000 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.160600 ms MarkObjects: 1.783200 ms  DeleteObjects: 0.131800 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000794 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
-Total: 3.321800 ms (FindLiveObjects: 0.375600 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.743000 ms  DeleteObjects: 0.101200 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1665.
-Total: 3.151500 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.062100 ms MarkObjects: 2.707500 ms  DeleteObjects: 0.084700 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000864 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  0.998 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
-Total: 1.998500 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.608600 ms  DeleteObjects: 0.120300 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000767 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
-Total: 2.026500 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.670900 ms  DeleteObjects: 0.131500 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1674.
-Total: 2.476400 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.039300 ms MarkObjects: 2.004300 ms  DeleteObjects: 0.098800 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1677.
-Total: 2.177900 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.713300 ms  DeleteObjects: 0.130500 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001098 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1680.
-Total: 2.260100 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.911500 ms  DeleteObjects: 0.135400 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000943 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1683.
-Total: 4.703400 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.077100 ms MarkObjects: 4.238900 ms  DeleteObjects: 0.109100 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000859 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1686.
-Total: 2.194300 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.084700 ms MarkObjects: 1.555800 ms  DeleteObjects: 0.122400 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001163 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.863 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 3.847400 ms (FindLiveObjects: 0.559300 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.994800 ms  DeleteObjects: 0.202800 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001802 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 3.467700 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.075400 ms MarkObjects: 3.001000 ms  DeleteObjects: 0.134600 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000691 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 2.299500 ms (FindLiveObjects: 0.255500 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.865500 ms  DeleteObjects: 0.089900 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 3.378400 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.931200 ms  DeleteObjects: 0.131300 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000939 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1701.
-Total: 2.404800 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.000300 ms  DeleteObjects: 0.133000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 2.548700 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.032100 ms  DeleteObjects: 0.130300 ms)
 
 ========================================================================
 Received Prepare
@@ -1095,22 +1396,22 @@ Registering precompiled user dll's ...
 Registered in 0.000709 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  1.000 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1704.
-Total: 1.997400 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.598300 ms  DeleteObjects: 0.142800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1741.
+Total: 2.212300 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.797800 ms  DeleteObjects: 0.123900 ms)
 
 ========================================================================
 Received Prepare
@@ -1119,52 +1420,49 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.000693 seconds.
+Registered in 0.001575 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1707.
-Total: 2.163500 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.864200 ms  DeleteObjects: 0.100600 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.4 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1710.
-Total: 2.675700 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.051900 ms MarkObjects: 2.293200 ms  DeleteObjects: 0.102200 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1744.
+Total: 2.334200 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.990400 ms  DeleteObjects: 0.091300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 873.962810 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(c93bba61197282d47ae6574197bd830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aad98309a286e03817ecbd45681c70') in 0.088257 seconds
+  Import took 0.091628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.717944 seconds.
+  path: Assets/Scripts/PlayerButtonPresser.cs
+  artifactKey: Guid(e70565edf5168084eb084a0fc33dd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresser.cs using Guid(e70565edf5168084eb084a0fc33dd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a3be1e2f2eb9325956e1372b3d2e3d') in 0.015876 seconds
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032283 seconds.
+  path: Assets/Scripts/PlayerButtonPresser.cs
+  artifactKey: Guid(e70565edf5168084eb084a0fc33dd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresser.cs using Guid(e70565edf5168084eb084a0fc33dd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a3be1e2f2eb9325956e1372b3d2e3d') in 0.004472 seconds
+  Import took 0.008665 seconds .
 
 ========================================================================
 Received Prepare
@@ -1173,7 +1471,7 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.000905 seconds.
+Registered in 0.000820 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
@@ -1182,16 +1480,24 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.871 seconds
+- Completed reload, in  1.048 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.4 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1713.
-Total: 2.576200 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.045100 ms MarkObjects: 2.226300 ms  DeleteObjects: 0.134300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1748.
+Total: 3.839500 ms (FindLiveObjects: 0.514700 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.965900 ms  DeleteObjects: 0.185800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.962507 seconds.
+  path: Assets/Scripts/PlayerButtonPresser.cs
+  artifactKey: Guid(e70565edf5168084eb084a0fc33dd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresser.cs using Guid(e70565edf5168084eb084a0fc33dd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3de74607c15be94d2c93d563ac1e4ac') in 0.008149 seconds
+  Import took 0.010881 seconds .
 
 ========================================================================
 Received Prepare
@@ -1200,133 +1506,41 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.000913 seconds.
+Registered in 0.001376 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 2.753600 ms (FindLiveObjects: 0.204300 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.352000 ms  DeleteObjects: 0.121400 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000804 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1719.
-Total: 2.129400 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.711800 ms  DeleteObjects: 0.094500 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000732 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 2.332500 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.080200 ms MarkObjects: 1.911300 ms  DeleteObjects: 0.090000 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.001121 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1725.
-Total: 2.551800 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.063100 ms  DeleteObjects: 0.124200 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000789 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.874 seconds
+- Completed reload, in  1.221 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1728.
-Total: 2.353200 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.949100 ms  DeleteObjects: 0.120000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1751.
+Total: 2.853800 ms (FindLiveObjects: 0.713400 ms CreateObjectMapping: 0.123000 ms MarkObjects: 1.897700 ms  DeleteObjects: 0.118200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.620867 seconds.
+  path: Assets/Scripts/PlayerButtonPresserNoKey.cs
+  artifactKey: Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresserNoKey.cs using Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9d755a3a4f120dc881e8d777b4bec7') in 0.016201 seconds
+  Import took 0.021799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055505 seconds.
+  path: Assets/Scripts/PlayerButtonPresserNoKey.cs
+  artifactKey: Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerButtonPresserNoKey.cs using Guid(8340b949588a4b04d878a27dbe44d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9d755a3a4f120dc881e8d777b4bec7') in 0.012163 seconds
+  Import took 0.016656 seconds .
 
 ========================================================================
 Received Prepare
@@ -1335,99 +1549,24 @@ Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no lo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.000681 seconds.
+Registered in 0.001716 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  1.157 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1731.
-Total: 3.179400 ms (FindLiveObjects: 0.295200 ms CreateObjectMapping: 0.073600 ms MarkObjects: 2.675200 ms  DeleteObjects: 0.133200 ms)
-
-========================================================================
-Received Prepare
-Assets/PortalAssets/Modelos/Reflect Cube/Portal Refraction Cube.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.000699 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1734.
-Total: 3.344700 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.817100 ms  DeleteObjects: 0.112000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2445.305641 seconds.
-  path: Assets/PortalAssets/textures/wall_not.png
-  artifactKey: Guid(620ac76007a0f1147bd4d34c757f0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/textures/wall_not.png using Guid(620ac76007a0f1147bd4d34c757f0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8dbb79868db54016faa4e7a5e125e2') in 0.249799 seconds
-  Import took 0.253306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.158932 seconds.
-  path: Assets/PortalAssets/textures/Wall_Not.mat
-  artifactKey: Guid(a5e7c489384c4874a8b4b0f6f866292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/textures/Wall_Not.mat using Guid(a5e7c489384c4874a8b4b0f6f866292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc7a6ba3207300b6a285b544561766e') in 0.441314 seconds
-  Import took 0.443620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 507.654200 seconds.
-  path: Assets/Prefabs/Door (1).prefab
-  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door (1).prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06579f0fdfb1fc0943a16647ec6deb50') in 0.042501 seconds
-  Import took 0.045316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027292 seconds.
-  path: Assets/Prefabs/Door (1).prefab
-  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door (1).prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06579f0fdfb1fc0943a16647ec6deb50') in 0.023044 seconds
-  Import took 0.027766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.657526 seconds.
-  path: Assets/Prefabs/Door_Button.prefab
-  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5c4dd77f29906b299d9fdd11fd39e2') in 0.065257 seconds
-  Import took 0.068267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.208936 seconds.
-  path: Assets/Prefabs/Door_Button.prefab
-  artifactKey: Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Door_Button.prefab using Guid(bcd115c4b6c2c804b909e3ec1e7a6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd40f897b5f3df57e89931b9721e4424') in 0.015110 seconds
-  Import took 0.018683 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1753.
+Total: 2.067700 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.671600 ms  DeleteObjects: 0.081500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
