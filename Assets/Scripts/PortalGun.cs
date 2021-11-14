@@ -11,6 +11,12 @@ public class PortalGun : MonoBehaviour
     [SerializeField] private float maxDistance;
     [SerializeField] private LayerMask portalLayerMask;
     [SerializeField] private Camera mainCamera;
+    [SerializeField] private Vector3 maxScale;
+    [SerializeField] private Vector3 minScale;
+
+    private bool lastModBlue = false;
+    private bool lastModOrange = false;
+    private bool firstPortal = true;
     private bool isActive;
     //Blue Portal and Orange Portal
     [SerializeField] private GameObject bluePortal;
@@ -25,14 +31,50 @@ public class PortalGun : MonoBehaviour
 
     void Update()
     {
+        if(lastModBlue)
+            bluePortal.transform.localScale = previewPortal.transform.localScale;
+
+        if(lastModOrange)
+            orangePortal.transform.localScale = previewPortal.transform.localScale;
+
         if (Input.GetMouseButton(0) || Input.GetMouseButton(1))
         {
             isActive = movePreviewPortal();
             if (isActive)
             {
-                if (Input.GetMouseButton(0) || Input.GetMouseButton(1)) { changeGunsight(false, false); }
-                else if (Input.GetMouseButton(0)) { changeGunsight(false, orangePortal); }
-                else if (Input.GetMouseButton(1)) { changeGunsight(bluePortal, false); }
+                if (Input.GetAxis("Mouse ScrollWheel") > 0f && previewPortal.transform.localScale.magnitude < maxScale.magnitude) // to be bigger
+                {
+                    previewPortal.transform.localScale += new Vector3(0.25f, 0.25f, 0f);
+                }
+                else if (Input.GetAxis("Mouse ScrollWheel") < 0f && previewPortal.transform.localScale.magnitude > minScale.magnitude) // to be smaller
+                {
+                    previewPortal.transform.localScale -= new Vector3(0.25f, 0.25f, 0f);
+                }
+
+                if (Input.GetMouseButtonDown(0)) {
+                    if (firstPortal)
+                    {
+                        changeGunsight(false, false);
+                        firstPortal = false;
+                    }
+                    else
+                        changeGunsight(false, orangePortal);
+
+                    lastModBlue = true;
+                    lastModOrange = false;
+                }
+                else if (Input.GetMouseButtonDown(1)) {
+                    if (firstPortal)
+                    {
+                        changeGunsight(false, false);
+                        firstPortal = false;
+                    }
+                    else
+                        changeGunsight(bluePortal, false);
+
+                    lastModBlue = false;
+                    lastModOrange = true;
+                }
             }
         }
         previewPortal.SetActive(isActive && isActive);

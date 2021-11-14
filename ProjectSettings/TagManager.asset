@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - PortalEnabled
+  - Cube
+  - Button1
+  - Button2
+  - Companion
+  - CheckPoint
+  - GM
   layers:
   - Default
   - TransparentFX

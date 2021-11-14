@@ -5,31 +5,40 @@ using UnityEngine;
 public class CompanionButtonPresser : MonoBehaviour
 {
     [SerializeField] private Door_Button door;
+    private GameManager gm;
+
+    private void Start()
+    {
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.TryGetComponent(out ButtonEvent button))
+        if (other.gameObject.CompareTag("Companion"))
         {
-            Debug.Log("Activate" + button.getButtonName() + " using a Companion Cube.");
-            button.pressButton();
+            gm.lastCheckPointPos = transform.position;
+            gm.lastCheckPointPos += new Vector3(1, 0, 1);
+
+            if (gameObject.CompareTag("Button1"))
+            {
+                door.turnLight1On();
+            }
+            if (gameObject.CompareTag("Button2"))
+            {
+                door.turnLight2On();
+            }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.TryGetComponent(out ButtonEvent button))
+        if (gameObject.CompareTag("Button1"))
         {
             door.turnLight1Off();
+        }
+        if (gameObject.CompareTag("Button2"))
+        {
             door.turnLight2Off();
-            if (door.light1)
-            {
-                door.turnLight2Off();
-                door.turnLight1On();
-            }
-            if (door.light2)
-            {
-                door.turnLight1Off();
-                door.turnLight2On();
-            }
         }
     }
 }

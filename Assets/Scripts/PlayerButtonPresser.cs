@@ -22,18 +22,18 @@ public class PlayerButtonPresser : MonoBehaviour
         if (other.gameObject.TryGetComponent(out ButtonEvent button))
         {
             activeButtons.Remove(button);
-            door.turnLight1Off();
-            door.turnLight2Off();
-            if (door.light1)
-            {
-                door.turnLight2Off();
-                door.turnLight1On();
-            }
-            if (door.light2)
-            {
-                door.turnLight1Off();
-                door.turnLight2On();
-            }
+            //door.turnLight1Off();
+            //door.turnLight2Off();
+            //if (door.light1)
+            //{
+            //    door.turnLight2Off();
+            //    door.turnLight1On();
+            //}
+            //if (door.light2)
+            //{
+            //    door.turnLight1Off();
+            //    door.turnLight2On();
+            //}
         }
     }
 
@@ -44,6 +44,8 @@ public class PlayerButtonPresser : MonoBehaviour
             Debug.Log("Activate" + button.getButtonName() + " pressing: " + button.getKeyCode());
             if (Input.GetKeyDown(button.getKeyCode()))
             {
+                Debug.Log("Activated with Button");
+
                 button.pressButton();
             }
         }

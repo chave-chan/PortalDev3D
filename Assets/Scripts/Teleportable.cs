@@ -27,6 +27,10 @@ public class Teleportable : MonoBehaviour
                 Vector3 l_Velocity = portal.virtualPortal.transform.InverseTransformDirection(rb.velocity);
                 rb.velocity = portal.otherPortal.transform.TransformDirection(l_Velocity);
                 transform.localScale *= (portal.otherPortal.transform.localScale.x / portal.transform.localScale.x);
+                if(gameObject.CompareTag("Companion"))
+                {
+                    transform.localScale = new Vector3(portal.otherPortal.transform.localScale.x, portal.otherPortal.transform.localScale.x, portal.otherPortal.transform.localScale.x);
+                }
             }
         }
     }

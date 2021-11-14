@@ -8,13 +8,16 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform initTransform;
     [SerializeField] private KeyCode restartKey;
     [SerializeField] private int health = 100;
+
+
     private int currentHealth = 0;
     private bool dead = false;
 
     private void Start()
     {
         currentHealth = health;
-        transform.position = initTransform.position;
+        transform.position = gameManager.lastCheckPointPos;
+
     }
     private void Update()
     {
@@ -24,12 +27,12 @@ public class Player : MonoBehaviour
         }
     }
 
+
     public void die()
     {
         dead = true;
         health = 0;
         gameManager.GameOver();
-        transform.position = initTransform.position;
     }
 
     public void restart()
